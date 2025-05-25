@@ -2,12 +2,13 @@ import OpenAI from 'openai';
 import { createClient } from '@supabase/supabase-js';
 import dotenv from 'dotenv';
 
-dotenv.config();
+// dotenv.config();
+let process;
 
-// process.env.OPENAI_API_KEY = env.OPENAI_API_KEY;
+process.env.OPENAI_API_KEY = env.OPENAI_API_KEY;
 
-// process.env.SUPABASE_API_KEY = env.SUPABASE_API_KEY;
-// process.env.SUPABASE_URL = env.SUPABASE_URL;
+process.env.SUPABASE_API_KEY = env.SUPABASE_API_KEY;
+process.env.SUPABASE_URL = env.SUPABASE_URL;
 
 /** Ensure the OpenAI API key is available and correctly configured */
 if (!process.env.OPENAI_API_KEY) {

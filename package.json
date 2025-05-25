@@ -8,6 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@langchain/community": "^0.3.44",
+    "@langchain/core": "^0.3.57",
+    "@langchain/langgraph": "^0.2.73",
+    "@langchain/openai": "^0.5.11",
     "@supabase/supabase-js": "^2.49.5",
     "config.js": "^0.1.0",
     "dotenv": "^16.5.0",
